@@ -3,10 +3,10 @@
 每张图单独生成。根据正文内容替换变量，不要把多张图拼在一起。
 
 ```text
-Generate one standalone 16:9 horizontal Chinese article illustration at 300 ppi.
+Generate one standalone 16:9 horizontal article illustration at 300 ppi.
 
 Visual DNA:
-Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
+Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten annotations in the same language as the source article. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required:
 一个手绘小男孩角色, based on a simple stick-figure avatar: fluffy black short hair with one small cowlick, round face, black dot eyes, a tiny calm smile, light blue T-shirt, dark shorts, very thin line-drawn arms and legs, clean hand-drawn outline. He must perform the core conceptual action, not decorate the scene. Make him serious, gentle, deadpan, and slightly bizarre through action design, not cute like a mascot.
@@ -26,14 +26,14 @@ Composition:
 Suggested elements:
 {元素1} / {元素2} / {元素3} / {元素4}
 
-Chinese handwritten labels:
+Handwritten labels in the article's language:
 {标注词1} / {标注词2} / {标注词3} / {标注词4} / {可选标注词5}
 
 Color use:
 Black for main line art, hair outlines, and structure. Light blue for the boy's T-shirt when needed. Dark gray for shorts. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
 
 Constraints:
-One image explains only one core structure. Output at 300 ppi. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
+One image explains only one core structure. Output at 300 ppi. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten labels in the article's language. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
 ```
 
 ## 图像编辑提示

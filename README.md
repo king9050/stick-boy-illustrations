@@ -1,14 +1,19 @@
 # 火柴男孩配图
 
-一个面向中文文章正文配图的 Codex skill 仓库。
+一个面向文章正文配图的 Codex skill 仓库，支持中文、英文、日语、韩语、西班牙语等多语言内容。
 
-核心特点：
+A Codex skill for article-body illustrations with a stick-boy character, designed for Chinese, English, Japanese, Korean, Spanish, and other languages.
 
-- 16:9 横版正文配图
-- 默认 300 ppi 输出
-- 纯白背景、黑色手绘线稿、少量红橙蓝批注
-- 固定角色为手绘火柴男孩，而不是黑色小怪物
-- 强调“小男孩承担核心动作”，避免只做装饰
+![Preview](docs/preview-energy-recharge.png)
+
+核心特点 / Highlights:
+
+- 16:9 横版正文配图 / 16:9 horizontal article illustrations
+- 默认 300 ppi 输出 / default 300 ppi output
+- 纯白背景、黑色手绘线稿、少量红橙蓝批注 / white background, black hand-drawn line art, sparse red-orange-blue annotations
+- 固定角色为手绘火柴男孩，而不是黑色小怪物 / recurring stick-boy character instead of the old black creature
+- 支持多语言文章，图中文字默认跟随原文语言 / supports multilingual articles and keeps labels aligned with the source language
+- 强调“小男孩承担核心动作”，避免只做装饰 / the boy must perform the core action, not decorate the scene
 
 ## 仓库内容
 
@@ -30,4 +35,6 @@ python3 "$HOME/.codex/skills/.system/skill-installer/scripts/install-skill-from-
 
 ## 说明
 
-当前发布版本保留了原技能目录名 `ian-xiaohei-illustrations`，这样可以减少已安装环境的兼容性风险；但技能内部角色设定、提示词模板和质检规则已经切换到“小男孩”版本，并加入了 `300 ppi` 输出约束。
+当前发布版本保留了原技能目录名 `ian-xiaohei-illustrations`，这样可以减少已安装环境的兼容性风险；但技能内部角色设定、提示词模板和质检规则已经切换到“小男孩”版本，并加入了 `300 ppi` 输出约束与多语言支持。
+
+The published version keeps the original internal folder name `ian-xiaohei-illustrations` for compatibility, while the skill itself has already been updated to the stick-boy character, 300 ppi output, and multilingual article support.

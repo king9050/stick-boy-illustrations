@@ -1,6 +1,6 @@
 interface:
   display_name: "火柴男孩配图"
-  short_description: "为中文文章生成怪诞清爽、有火柴男孩IP的正文配图资产"
-  default_prompt: "Use $ian-xiaohei-illustrations to 为这篇中文文章设计并生成几张火柴男孩正文配图。"
+  short_description: "为多语言文章生成怪诞清爽、有火柴男孩IP的正文配图资产"
+  default_prompt: "Use $ian-xiaohei-illustrations to 为这篇文章设计并生成几张火柴男孩正文配图，图中文字默认跟随原文语言。"
 policy:
   allow_implicit_invocation: true
